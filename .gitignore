@@ -253,3 +253,15 @@ GitHub.sublime-settings
 .history
 
 # End of https://www.gitignore.io/api/font,linux,macos,python,fontforge,pycharm+all,sublimetext,visualstudiocode
+
+fonts/Consola
+fonts/ComicShannsMono
+fonts/GoMono
+fonts/Inconsolata
+fonts/Monaspace
+fonts/Monofur
+fonts/Mononoki
+fonts/NotoSansMono
+fonts/PragmataPro
+fonts/SourceCodePro
+fonts/UbuntuMono

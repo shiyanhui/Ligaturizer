@@ -7,7 +7,8 @@
 #### User configurable settings ####
 
 # For the prefixed_fonts below, what word do we stick in front of the font name?
-LIGATURIZED_FONT_NAME_PREFIX = "Liga"
+#  LIGATURIZED_FONT_NAME_PREFIX = "Liga"
+LIGATURIZED_FONT_NAME_PREFIX = ""
 
 # Should we copy some individual punctuations characters like &, ~, and <>,
 # as well as ligatures? The full list is in ligatures.py.
@@ -30,21 +31,33 @@ OUTPUT_DIR = 'fonts/output/'
 
 prefixed_fonts = [
   # Apache 2.0 license
-  'fonts/codeface/fonts/cousine/*.ttf',
-  'fonts/codeface/fonts/droid-sans-mono/*.ttf',
-  'fonts/codeface/fonts/meslo/*.ttf',
-  'fonts/codeface/fonts/roboto-mono/*.ttf',
+  #  'fonts/codeface/fonts/cousine/*.ttf',
+  #  'fonts/codeface/fonts/droid-sans-mono/*.ttf',
+  #  'fonts/codeface/fonts/meslo/*.ttf',
+  #  'fonts/codeface/fonts/roboto-mono/*.ttf',
 
   # MIT license
-  'fonts/codeface/fonts/dejavu-sans-mono/*.ttf',
-  'fonts/codeface/fonts/hack/*.ttf',
+  #  'fonts/codeface/fonts/dejavu-sans-mono/*.ttf',
+  #  'fonts/codeface/fonts/hack/*.ttf',
 
   # SIL OFL with no Reserved Font Name
-  'fonts/codeface/fonts/edlo/*.ttf',
-  'fonts/codeface/fonts/inconsolata/*.ttf',
-  'fonts/spacemono/fonts/*.ttf',
-  'fonts/Montserrat/fonts/otf/*.otf',
-  'fonts/Montserrat/fonts/ttf/*.ttf',
+  #  'fonts/codeface/fonts/edlo/*.ttf',
+  #  'fonts/codeface/fonts/inconsolata/*.ttf',
+  #  'fonts/spacemono/fonts/*.ttf',
+  #  'fonts/Montserrat/fonts/otf/*.otf',
+  #  'fonts/Montserrat/fonts/ttf/*.ttf',
+
+  'fonts/ComicShannsMono/*.otf',
+  'fonts/Consola/*.ttf',
+  'fonts/GoMono/*.ttf',
+  'fonts/Inconsolata/*.ttf',
+  'fonts/Monaspace/*.otf',
+  'fonts/Monofur/*.ttf',
+  'fonts/Mononoki/*.ttf',
+  'fonts/NotoSansMono/*.ttf',
+  'fonts/PragmataPro/*.otf',
+  'fonts/SourceCodePro/*.ttf',
+  'fonts/UbuntuMono/*.ttf',
 ]
 
 #### Fonts that need to be renamed. ####
@@ -55,25 +68,25 @@ prefixed_fonts = [
 renamed_fonts = {
   # This doesn't have a reserved name, but if we don't rename it it'll collide
   # with its sibling Fantasque Sans Mono Normal, listed above.
-  'fonts/FantasqueSansMono-Normal/*.otf': 'Liga Fantasque Sans Mono',
-  'fonts/FantasqueSansMono-Normal/*.ttf': 'Liga Fantasque Sans Mono',
-  'fonts/FantasqueSansMono-NoLoopK/*.otf': 'Liga Fantasque Sans Mono NoLoopK',
-  'fonts/FantasqueSansMono-NoLoopK/*.ttf': 'Liga Fantasque Sans Mono NoLoopK',
-  'fonts/FantasqueSansMono-LargeLineHeight/*.otf': 'Liga Fantasque Sans Mono LargeLineHeight',
-  'fonts/FantasqueSansMono-LargeLineHeight/*.ttf': 'Liga Fantasque Sans Mono LargeLineHeight',
-  'fonts/FantasqueSansMono-LargeLineHeight-NoLoopK/*.otf': 'Liga Fantasque Sans Mono LargeLineHeight NoLoopK',
-  'fonts/FantasqueSansMono-LargeLineHeight-NoLoopK/*.ttf': 'Liga Fantasque Sans Mono LargeLineHeight NoLoopK',
+  #  'fonts/FantasqueSansMono-Normal/*.otf': 'Liga Fantasque Sans Mono',
+  #  'fonts/FantasqueSansMono-Normal/*.ttf': 'Liga Fantasque Sans Mono',
+  #  'fonts/FantasqueSansMono-NoLoopK/*.otf': 'Liga Fantasque Sans Mono NoLoopK',
+  #  'fonts/FantasqueSansMono-NoLoopK/*.ttf': 'Liga Fantasque Sans Mono NoLoopK',
+  #  'fonts/FantasqueSansMono-LargeLineHeight/*.otf': 'Liga Fantasque Sans Mono LargeLineHeight',
+  #  'fonts/FantasqueSansMono-LargeLineHeight/*.ttf': 'Liga Fantasque Sans Mono LargeLineHeight',
+  #  'fonts/FantasqueSansMono-LargeLineHeight-NoLoopK/*.otf': 'Liga Fantasque Sans Mono LargeLineHeight NoLoopK',
+  #  'fonts/FantasqueSansMono-LargeLineHeight-NoLoopK/*.ttf': 'Liga Fantasque Sans Mono LargeLineHeight NoLoopK',
 
   # SIL OFL with reserved name
-  'fonts/codeface/fonts/anonymous-pro/*.ttf': 'Liganymous',
-  'fonts/plex/IBM-Plex-Mono/fonts/complete/ttf/*.ttf': 'Ligalex Mono',
-  'fonts/codeface/fonts/oxygen-mono/*.otf': 'Liga O2 Mono',
-  'fonts/codeface/fonts/source-code-pro/*.ttf': 'LigaSrc Pro',
-  'fonts/SourceCodeVariable*': 'LigaSrc Variable',
-  'fonts/Hermit/*.otf': 'Ligamit',
+  #  'fonts/codeface/fonts/anonymous-pro/*.ttf': 'Liganymous',
+  #  'fonts/plex/IBM-Plex-Mono/fonts/complete/ttf/*.ttf': 'Ligalex Mono',
+  #  'fonts/codeface/fonts/oxygen-mono/*.otf': 'Liga O2 Mono',
+  #  'fonts/codeface/fonts/source-code-pro/*.ttf': 'LigaSrc Pro',
+  #  'fonts/SourceCodeVariable*': 'LigaSrc Variable',
+  #  'fonts/Hermit/*.otf': 'Ligamit',
 
   # UFL
-  'fonts/codeface/fonts/ubuntu-mono/*.ttf': 'Ubuntu Mono Ligaturized',
+  #  'fonts/codeface/fonts/ubuntu-mono/*.ttf': 'Ubuntu Mono Ligaturized',
 }
 
 #### Fonts we can't ligaturize. ####
